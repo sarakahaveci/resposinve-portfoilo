@@ -253,15 +253,15 @@ img {
   color: var(--first-color);
 }
 
-/* ===== SKILLS =====*/
-.skills__container {
+/* ===== MyWorks =====*/
+.MyWorks__container {
   row-gap: 2rem;
 }
-.skills__subtitle {
+.MyWorks__subtitle {
   color: var(--first-color);
   margin-bottom: var(--mb-3);
 }
-.skills__name {
+.MyWorks__name {
   display: inline-block;
   font-size: var(--small-font-size);
   margin-right: var(--mb-2);
@@ -270,11 +270,11 @@ img {
   background-color: var(--white-color);
   border-radius: 0.25rem;
 }
-.skills__name:hover {
+.MyWorks__name:hover {
   background-color: var(--first-color);
   color: var(--white-color);
 }
-.skills__img img {
+.MyWorks__img img {
   border-radius: 0.5rem;
 }
 
@@ -415,7 +415,7 @@ img {
     width: 165px;
   }
 
-  .skills__container {
+  .MyWorks__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
