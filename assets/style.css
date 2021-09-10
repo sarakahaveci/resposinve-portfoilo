@@ -281,8 +281,8 @@ img {
 /* ===== CONTACT =====*/
 .contact__container {
   row-gap: 2rem;
-  width: auto!important;
-  margin: auto!important;
+  width: auto !important;
+  margin: auto !important;
 }
 .contact__subtitle {
   font-size: var(--normal-font-size);
@@ -474,7 +474,7 @@ img {
   user-select: none;
 }
 .list {
-  padding:0rem;
+  padding: 0rem;
   display: flex;
   position: relative;
   margin: auto;
@@ -513,19 +513,15 @@ containerBox button {
 }
 
 .containerBox input:focus {
-  border: 2px solid  #f074df;
+  border: 2px solid #f074df;
 }
 
 .containerBox button {
   cursor: pointer;
-  background:  #f074df;
+  background: #f074df;
   letter-spacing: 1px;
   transition: 0.4s;
 }
-
-.containerbutton: hover {
-  background:  #f074df;
-
 
 ul {
   position: absolute;
