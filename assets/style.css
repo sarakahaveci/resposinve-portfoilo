@@ -76,11 +76,6 @@ a {
   text-decoration: none;
   color: var(--text-color);
 }
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
 
 /*===== CLASS CSS ===== */
 .section {
@@ -274,9 +269,6 @@ img {
   background-color: var(--first-color);
   color: var(--white-color);
 }
-.skills__img img {
-  border-radius: 0.5rem;
-}
 
 /* ===== PORTFOLIO =====*/
 .portfolio {
@@ -285,13 +277,6 @@ img {
 .portfolio__container {
   justify-items: center;
   row-gap: 2rem;
-}
-.portfolio__img {
-  position: relative;
-  overflow: hidden;
-}
-.portfolio__img img {
-  border-radius: 0.5rem;
 }
 .portfolio__link {
   position: absolute;
@@ -307,9 +292,7 @@ img {
   backdrop-filter: blur(10px);
   transition: 0.3s;
 }
-.portfolio__img:hover .portfolio__link {
-  bottom: 0;
-}
+
 .portfolio__link-name {
   color: var(--dark-color);
 }
@@ -490,4 +473,50 @@ img {
     width: 500px;
     right: 24%;
   }
+}
+
+.containerBox {
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+  margin-top: 3px;
+  background: #fd6efd;
+  width: 450px;
+  height: min-content;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.containerBox input,
+container button {
+  height: 40px;
+  width: 90%;
+  border-radius: 50px;
+  font-size: 18px;
+}
+.containerBox input {
+  border: 2px solid #fd6efd;
+  padding-left: 12px;
+  margin-bottom: 12px;
+  transition: 0.4s;
+}
+
+.containerBox input:focus {
+  border: 2px solid #fd6efd;
+}
+
+.containerBox button {
+  cursor: pointer;
+  background: #fd6efd;
+  letter-spacing: 1px;
+  transition: 0.4s;
+}
+.list {
+  position: relative;
+  margin: auto;
+  width: 30%;
+  padding: 10px;
 }
